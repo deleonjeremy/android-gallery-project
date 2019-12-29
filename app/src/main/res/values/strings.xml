@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndroidProject</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnRegister">Register</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="btnBackToLogin">Back To Login Page</string>
+</resources>

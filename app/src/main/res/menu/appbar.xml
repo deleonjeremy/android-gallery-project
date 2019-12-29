@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainMenu">
+
+    <item android:id ="@+id/refresh"
+        android:title="Refresh"
+        android:icon="@drawable/ic_refresh"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/favourite_icon"
+        android:title="Favourite"
+        android:icon="@drawable/ic_check_favorite"
+        android:visible="false"
+        app:showAsAction="always"/>
+
+    <item android:id ="@+id/action_settings"
+        android:title="Settings"
+        app:showAsAction="never"/>
+
+    <item android:id ="@+id/action_favourites"
+        android:title="Favourites"
+        android:visible="false"
+        app:showAsAction="never"/>
+
+</menu>

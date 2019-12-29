@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDark"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etEmailreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/email"
+        android:inputType="textPersonName"
+        android:textColor="#D5D5D5"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/etPasswordreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/etConfirmPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/confirmPassword"
+        android:inputType="textPassword"
+        android:textColorHint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnRegisterreg"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/btnRegister" />
+
+    <Button
+        android:id="@+id/btnBackToLogin"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/btnBackToLogin" />
+
+</LinearLayout>
